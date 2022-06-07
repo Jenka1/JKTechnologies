@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+body {
+
+	font-family: 'Cabin', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 5;
+}
+
+li{
+	list-style-type: none;
+}
+
+.number{
+	list-style: number;
+}
+
+h1
+{
+text-align: center;
+padding-top: 100px;
+font-size: 2em;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/******************Navbar************* */
+
+nav {
+	overflow: hidden;
+	background-color:white ;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+
+
+header li {
+
+	float: right;
+	font-size: 1.2em;
+}
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+#logo{
+   
+	font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+	float: left;
+	}
+
+/* ********************Image principale************* */
+
+#imagePrincipale {	
+  padding-top: 60px;
+  background: url(media/imageprincipale.jpg)no-repeat fixed; 50% 50%;
+  background-size: cover;
+  height: 800px;
+  font-family: 'Cabin', sans-serif;
+}
+
+#text-block {
+
+  box-sizing: border-box;
+  width: 60%;
+  border: 0px solid red;
+  float:right;
+  margin-top: 150px;
+}
+
+
+ #text-block h3{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 3em;
+}
+ #text-block h2{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 6em;
+}
+ #text-block p{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 2em;
+}
+
+
+/* ************** presentation************* */
+
+#presentation {
+
+	background-color:#E8E8E8;
+	padding: 10px 0px 100px 0;
+  height: 799px;
+  }
+
+.textecentre p{
+	text-align: center;
+}
+
+
+#texteIntro{
+	padding: 10px; 20%
+	}
+
+#texteIntro h2 {
+text-align: center;
+padding-top: 0px;
+font-size: 1.2em;
+}
+
+#societe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+
+/* ************** services************* */
+
+#servicesTI{
+
+	background-color:#E8E8E8;
+	padding: 10px 0px 100px 0;
+  height: 799px;
+}
+#servicesTI p{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+
+.imagesSevices h2{
+ font-family: 'Cabin', sans-serif;
+ text-align: center;
+ font-size: 1.2em;
+ font-weight: bold;
+ 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 10%;
+
+}
+.imagesSevices img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 10%;
+
+}
+
+.imagesSevices img {
+	border-radius: 20;
+	box-shadow: 5px 5spx 5spx 1px rgba(0, 0, 0, 0.3);
+}
+
+.imagesSevices img:hover {
+	opacity: 0.5;s
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+
+
+  /* *********Service description****************** */
+
+  .closebtn:hover {
+	  opacity: 0.5;
+	  transform: scale(1.05);
+	}
+
+ 	table 
+ 	{
+ 	  padding: 0, 25%;
+	  margin-top: 50px;
+	  margin-left: 35%;
+ 	}
+
+ 	.grand{
+
+	height:600px;width:5px
+	
+ 	}
+
+
+/* ************** contact************* */
+#contact{
+	background-color:#E8E8E8;
+	padding: 20px 0px 10px 0;
+  text-align: center;
+}
+
+form {
+	margin: 0;
+	max-width: 100%;
+	padding: 0 25%;
+	display: block;
+  align-items: center;
+
+}
+
+input, textarea, button{
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family:'Cabin', sans-serif;
+	border-radius: 8px;
+}
+
+textarea{
+	height:120px ;
+}
+
+button{
+	font-size: 1.5em;
+	background-color: #FFFAE1;
+}
+
+button:hover {
+	background-color: #e55039;
+	color: #FFFAE1;
+	cursor: pointer;
+	transition: 0.3 ease-in-out;
+}
+
+#deuxiemeTrait{
+	height: 1px;
+	width: 75%;
+	background-color:#FFFFFF;
+	margin: 60px auto;
+}
+#carte h2{
+	text-align: center;
+	padding-top: 0px;
+	font-size: 1.5em;
+}
+
+/* ************** FAQ************* */
+#faq {
+
+	background-color:#E8E8E8;
+	padding: 10px 0px 100px 0;
+  height: 900px;
+
+  }
+#faq h3{
+padding-left: 10px;
+padding-top: 20px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+ 	/* ************** partenariats************* */
+
+#sitespartenariats{
+
+	background-color:#E8E8E8;
+	padding: 10px 0px 100px 0;
+  height: 799px;
+  }
+
+#partenaires {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+
+
+  .imagespartenariats img:hover {
+	  opacity: 0.5;
+	  transform: scale(1.05);
+	  transition: 0.6s ease-in-out;
+	}
+
+.imagespartenariats h2{
+
+	 font-family: 'Cabin', sans-serif;
+	 text-align: center;
+	 font-size: 1.2em;
+	 margin: 15px;
+	 font-weight: bold;
+}
+
+
+
+/********* footer  ***********  */
+
+.piepage {
+  background-color:white; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.piepage li {
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px 18px;
+}
+footer a:hover{
+color: blue;
+
+}
+footer{
+	padding: 0;
+}
+
+/********* Plan du site ***********  */
+
+#plan{
+	background-color:#E8E8E8;
+	padding: 10px 0px 100px 0;
+  height: 799px;
+  }
+  
+
+.link{
+	font-size: 1.6em;
+	padding-top: 10px;
+ }
+
+ .listservice {
+		padding-top: 10px;
+		font-size: 1.4em;
+	
+  }
+
+ a:hover{
+	color: blue;
+}
+
+.imagesplandesite img {
+
+  box-sizing: border-box;
+  width: 50%;
+  border: 0px solid red;
+  float:right;
+  margin-top: 50px;
+  position: fixed;
+}
+
+.imagesplandesite img{
+	position: fixed;
+  bottom: 100px;
+	left: 75%;
+	margin-top: 0px;
+	padding: 0;
+}
+
+.plantext{
+text-align: center;
+}

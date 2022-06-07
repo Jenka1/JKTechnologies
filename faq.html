@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FAQ</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+<header>
+	
+	<nav>
+		<ul>
+			<li style="float:left"><img src="media/logomini.png"></li>
+			<li id="logo"><a href="#">JK Technologies</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+			<li><a href="contact.html">Contactez-nous</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="presentation.html">Présentation</a></li>
+			<li><a href="accueil.html">Accueil</a></li>		
+		</ul>
+	</nav>
+</header>
+
+<div id="faq">
+<h1>Foire aux questions</h1>
+<h3>Cliquez sur la question pour lire la réponse.</h3>
+
+<button type="button" class="collapsible">1. Quels sont vos services ?</button>
+<div class="content">
+  <p>Nos services incluent: la réparation des ordinateurs portables et de bureau, la récupération de données, la suppression de virus informatique et l'installation de matériel et de logiciel.</p>
+</div>
+
+<button type="button" class="collapsible">2. Vaut-il mieux faire réparer mon ordinateur en magasin, à distance ou à domicile ?</button>
+<div class="content">
+  <p> Compte tenu de tous les scénarios, il est généralement plus logique de faire réparer votre ordinateur directement chez vous, où vous l'utilisez quotidiennement. Le technicien en réparation d'ordinateurs peut alors inspecter votre réseau Wi-Fi, vos câbles, vos prises de courant et vos connexions d'imprimante à la recherche d'éventuelles causes du problème qui, autrement, ne seraient pas possibles dans un magasin. Les tarifs du service à domicile sont souvent très similaires à ceux des magasins de livraison. Il est également important de noter que les services à distance ne sont possibles que lorsque votre ordinateur est en état de marche et peut se connecter à Internet.</p>
+</div>
+
+<button type="button" class="collapsible">3. Puis-je m'attendre à la même qualité de service avec une réparation à domicile ?</button>
+<div class="content">
+  <p>Les techniciens mobiles de JKTechnologies transportent tous les outils, logiciels et pièces de rechange essentiels avec eux jusqu'à votre domicile et fournissent un service plus axé sur vos besoins spécifiques que d'avoir votre ordinateur dans un magasin.</p>
+</div>
+<button type="button" class="collapsible">4. Combien coûtent les dépannages informatiques ?</button>
+<div class="content">
+  <p>Nous facturons un tarif très compétitif et la plupart des travaux sont terminés en une seule heure. En règle générale, vous pouvez généralement vous attendre à payer bien plus de 100 $/heure pour les entreprises franchisées comme la Geek Squad, et moins de 100 $/heure pour les ateliers de réparation privés locaux. Il convient de mentionner que le prix ne reflète généralement pas la qualité du service que vous recevrez, car les petits magasins travailleront généralement plus dur et accorderont plus d'attention à la satisfaction du client avec un prix plus abordable.</p>
+</div>
+<button type="button" class="collapsible">5. Serai-je facturé si vous ne parvenez pas à réparer mon ordinateur ?</button>
+<div class="content">
+  <p>Nous avons une politique fixe ou gratuite qui garantit que vous ne serez pas facturé pour nos services, si nous ne sommes pas en mesure de réparer votre ordinateur ou votre appareil. Il est important de mentionner, cependant, que JKTechnologies n'emploie que les meilleurs professionnels certifiés capables de réparer 99% de tous les problèmes informatiques que vous pourriez rencontrer.</p>
+</div>
+
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+<footer>
+	<ul class="piepage">
+		<li><a href="#">© JKTechnologies 2022</a></li>
+	  	<li><a href="plan.html">Plan du site</a></li>
+	  	<li><a href="sites.html">Sites partenaires </a></li>
+	</ul>
+</footer>
+
+</body>
+</html>
